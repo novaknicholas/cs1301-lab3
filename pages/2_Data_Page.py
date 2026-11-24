@@ -63,11 +63,13 @@ if selectedPhone1 is not None and selectedPhone2 is not None:
         "First iPhone:": [ram1],
         "Second iPhone": [ram2]
     })
+
+
     st.subheader("Screen Size Comparison (in)")
     st.bar_chart({
-        "First iPhone:" [screen1],
-        "Second iPhone:" [screen2]
-    }) 
+        "First iPhone": [screen1],
+        "Second iPhone": [screen2]
+    })
 
 
 
