@@ -12,7 +12,7 @@ import streamlit as st
 import csv
 modelNames = []
 applePhones = []
-with open("Mobiles Dataset (2025).csv") as file:
+with open("Mobiles Dataset (2025).csv", encoding="cp1252", newline="") as file:
     reader = csv.DictReader(file)
     for row in reader:
         if row["Company Name"] == "Apple":
