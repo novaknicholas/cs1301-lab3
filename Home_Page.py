@@ -13,7 +13,7 @@ st.subheader("Nitya Sahni, Nicholas Novak")
 # TODO (optional): Add a group photo to the images folder and show it here, for example:
 # st.image("images/group_photo.jpg")
 st.subheader("Meet the Team!")
-st.image("images/teamPhoto.jpg")
+st.image("images/teamPhoto.jpeg")
 
 # Introduction
 # TODO: Write a quick description for all of your pages in this lab below, in the form:
